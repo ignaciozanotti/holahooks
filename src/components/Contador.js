@@ -12,7 +12,7 @@ const Contador = () => {
 
     return (
         <Fragment>
-            <h3>Contador actual: {numero}</h3>
+            <h3>Contador actual: {numero > 10 ? 'ya wey! no wey!' : numero}</h3>
             <button onClick={aumentar}>Uno más!</button>
         </Fragment>
 
