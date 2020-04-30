@@ -2,6 +2,7 @@ import React from 'react';
 import Contador from './components/Contador';
 import Lista from './components/Lista';
 import Formulario from './components/Formulario';
+import HookForm from './components/HookForm';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Contador />
           <Lista />
           <Formulario />
+          <HookForm />
         </div>
     </div>
   );
