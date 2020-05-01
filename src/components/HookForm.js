@@ -17,10 +17,11 @@ const HookForm = () => {
                     <input
                         name='titulo'
                         className="form-control my-2" 
-                        ref={register({
+                        ref={
+                            register({
                             required: {value: true, message: 'titulo obligatorio'}
                         })
-                    }   
+                        }   
                     />
                     <span className="text-danger text-small d-block mb-2">
                         {errors?.titulo?.message }
